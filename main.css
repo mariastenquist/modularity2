@@ -1,0 +1,48 @@
+/* ADD YOUR STYLES HERE */
+.Boxes img {
+	margin: auto;
+	text-align: center;
+	padding-left: 70px;
+	/*vertical-align: middle;*/
+	/*padding: 80px;*/
+}
+
+.VaryBox img, .VaryBox p, .VaryBox ol {
+  	display: inline-block;
+	/*padding: 20px;*/
+	float: left;
+	margin: 15px;
+}
+.morebox {
+	line-height: 300px;
+  	vertical-align: middle;
+}
+.morebox img {
+	/*top: 50%;*/
+  	position: relative;
+  	display: inline-block;
+  	/*padding: 10px;*/
+  	/*margin: auto;*/
+}
+
+.Vert4 {
+	padding: 50px, 0;
+}
+
+/*.Horiz3 {*/
+	/*line-height: 30px;*/
+	/*vertical-align: left;*/
+/*}*/
+
+.Horiz3  li {
+	/*display: inline;*/
+	float: left
+}
+
+
+/*things affecting text are container level because they can be inherited*/
+ /*things that affect space: individual images/div */
+ /*line-height & vertical-align can only be used on one level
+
+
+	
