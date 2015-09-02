@@ -1,15 +1,13 @@
 /* ADD YOUR STYLES HERE */
+
 .Boxes img {
 	margin: auto;
 	text-align: center;
-	padding-left: 70px;
-	/*vertical-align: middle;*/
-	/*padding: 80px;*/
+	padding-left: 70px
 }
 
 .VaryBox img, .VaryBox p, .VaryBox ol {
   	display: inline-block;
-	/*padding: 20px;*/
 	float: left;
 	margin: 15px;
 }
@@ -18,11 +16,9 @@
   	vertical-align: middle;
 }
 .morebox img {
-	/*top: 50%;*/
+
   	position: relative;
   	display: inline-block;
-  	/*padding: 10px;*/
-  	/*margin: auto;*/
 }
 
 .Vert4 {
@@ -34,15 +30,81 @@
 	/*vertical-align: left;*/
 /*}*/
 
-.Horiz3  li {
+.horiz3  li {
 	/*display: inline;*/
 	float: left
+}	
+
+.buttons{
+	background-color:#ED828A;
+	padding:15px 25px;
+	display:inline-block;
+    border-radius:5px;
+    width: 30px;
+    text-decoration:none; 
+    font-size:18px;
+    color: white;
+    text-align: center;
+    border: none;
 }
+.big {
+	padding: 20px 30px;
+	width: 45px;
+	margin:0;
+    /*text-decoration:none;*/
+    /*border-radius:3px;*/
+    /*border:0;*//*background-color:pink;*/
+	/*border-radius: 5px;*/}
+  
+.medium {
+	padding: 20px 15px;
+	height: 15px;
+	width: 200px;
+}
+.small  {
+	width: 20px;
+}
+
+
+.navigation  {
+	display:inline-block;
+	background-color:#ED828A;
+    color: white;
+    float: left;
+    border-radius: 4px;
+}
+ 
+.navigation li {
+display:inline-block;
+}
+
+.navigation a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	display: inline-block;
+	padding: 20px;
+}
+
+.navigation:hover a {
+	color: yellow; 
+}
+
+
+
+
+
+
 
 
 /*things affecting text are container level because they can be inherited*/
  /*things that affect space: individual images/div */
  /*line-height & vertical-align can only be used on one level
+ /*vertical-align: middle;*/
+	/*padding: 80px;*/
+	/*top: 50%;*/
+		/*padding: 10px;*/
+  	/*margin: auto;*/
 
 
 	
