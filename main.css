@@ -30,14 +30,20 @@
 	/*vertical-align: left;*/
 /*}*/
 
+.horiz3 {
+	padding: 0px;
+}
+
 .horiz3  li {
 	/*display: inline;*/
-	float: left
+	float: left;
+	list-style-type: none;
+	padding-left: auto;
 }	
 
 .buttons{
 	background-color:#ED828A;
-	padding:15px 25px;
+	padding:0px;
 	display:inline-block;
     border-radius:5px;
     width: 30px;
@@ -49,20 +55,23 @@
 }
 .big {
 	padding: 20px 30px;
-	width: 45px;
-	margin:0;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	/*margin:0;*/
     /*text-decoration:none;*/
     /*border-radius:3px;*/
     /*border:0;*//*background-color:pink;*/
 	/*border-radius: 5px;*/}
   
 .medium {
-	padding: 20px 15px;
-	height: 15px;
-	width: 200px;
+	/*padding: 20px 15px;*/
+	height: 50px;
+	width: 100px;
+	line-height: 50px;
 }
 .small  {
-	width: 20px;
+	width: 35px;
 }
 
 
@@ -90,12 +99,30 @@ display:inline-block;
 	color: yellow; 
 }
 
+.comment-box {
+ display: inline-block;
+}
 
+.comment-image  {
+	float: left;
+	/*position:relative;*/
+	/*top: 0px;*/
+	/*left: 0px;*/
+	/*padding: 8px;*/
+}
 
+.comment-content {
+	float: left;
+	/*clear:right;*/
+	/*text-align: right;*/
+	/*float: right;*/
+	/*overflow: auto;*/
 
+}
 
-
-
+.comment-last {
+	float: left;
+}
 
 /*things affecting text are container level because they can be inherited*/
  /*things that affect space: individual images/div */
